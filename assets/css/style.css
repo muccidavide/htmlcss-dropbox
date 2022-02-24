@@ -18,17 +18,22 @@
 }
 
 body{
-    max-width: 1440px;
+    max-width: 1920px;
+    margin: auto;
 }
+
+
 
 /* Utility */
 
 .container_large{
-    width: 1200px;
+    width: 1400px;
+    margin: auto;
 }
 
 .container_med{
-    width: 1000px;
+    width: 1200px;
+    margin: auto;
 }
 
 .row::after{
@@ -43,5 +48,21 @@ clear: both;
 
 .col_33{
     width: 33.3%;
+}
+
+[class^=col_]{
+    float: left;
+}
+
+/* Debug */
+
+.navbar>div{
+    height: 100px;
+    background-color: red;
+}
+
+.banner{
+    background-color: #0061FF;
+    height: 800px;
 }
 
