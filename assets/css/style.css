@@ -95,17 +95,22 @@ h1{
 }
 
 .m_top_sml {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .m_bot_med{
     margin-bottom: 100px;
 }
 
+.m_bot_sml{
+    margin-bottom: 25px;
+}
+
 .btn_blue{
     background-color: var(--btn_col);
     color: var(--light_col);
     padding: 0.5rem 2rem;
+    display: inline-block;
 }
 
 /* Debug */
@@ -223,10 +228,12 @@ h1{
 .box_banner{
     padding-top: 100px;
     background-color: var(--bg_color_secondary);
+    max-height: 920px;
 }
 
 .banner_row > .col_30{
     margin-right: 10%;
+    padding: 6rem 0;
 }
 
 .banner_row img{
