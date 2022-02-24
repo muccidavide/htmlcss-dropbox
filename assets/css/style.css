@@ -54,6 +54,18 @@ clear: both;
     float: left;
 }
 
+.m_top_large{
+    margin-top: 300px;
+}
+
+.m_top_med{
+    margin-top: 200px;
+}
+
+.m_top_sml{
+    margin-top:100px ;
+}
+
 /* Debug */
 
 .navbar>div{
