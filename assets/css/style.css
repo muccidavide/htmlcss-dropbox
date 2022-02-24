@@ -57,12 +57,16 @@ clear: both;
     width: 25%;
 }
 
+.col_20{
+    width: 20%;
+}
+
 [class^=col_]{
     float: left;
 }
 
 .m_top_large{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .m_top_med{
@@ -139,5 +143,22 @@ clear: both;
 }
 
 .free_try{
-    height: 300px;
+    height: 100%;
+    background-color: darkturquoise;
+}
+
+.faq_box{
+    height: 500px;
+    background-color: springgreen;
+}
+
+.col_20{
+    background-color:peru ;
+    height: 400px;
+    border: solid black;
+}
+
+.language{
+    background-color: darksalmon;
+    height: 200px;
 }
