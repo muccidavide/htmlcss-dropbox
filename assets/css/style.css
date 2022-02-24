@@ -42,12 +42,19 @@ display: table;
 clear: both;
 }
 
+.col_100{
+    width: 100%;
+}
 .col_50{
     width: 50%;
 }
 
 .col_33{
     width: 33.33%;
+}
+
+.col_25{
+    width: 25%;
 }
 
 [class^=col_]{
@@ -83,7 +90,8 @@ clear: both;
     height: 300px;
 }
 
-.plans > div{
+.plans > div,
+.operations > div{
     background-color: blue;
     height: 1100px;
     border: solid black;
@@ -104,3 +112,32 @@ clear: both;
     height: 100%;
 }
 
+.header_operation{
+    height: 150px;
+    background-color: red;
+}
+
+.header_team{
+    background-color: darkturquoise;
+    height: 200px;
+}
+
+.testimonials>div{
+    height: 500px;
+    background-color: yellow;
+    border: solid black;
+}
+
+.test_grid>div{
+    height: 50%;
+    border: solid black;
+}
+
+.testimonials > .col_100{
+    background-color: darkmagenta;
+    height: 400px;
+}
+
+.free_try{
+    height: 300px;
+}
