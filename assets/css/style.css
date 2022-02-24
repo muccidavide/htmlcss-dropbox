@@ -26,6 +26,7 @@ body {
 
 a {
     text-decoration: none;
+    color:var(--dark_text)
 }
 
 p, span, a{
@@ -33,6 +34,9 @@ p, span, a{
 
 }
 
+h1{
+    font-size: 85px;
+}
 
 /* Utility */
 
@@ -55,13 +59,19 @@ p, span, a{
 .col_100 {
     width: 100%;
 }
-
+.col_60{
+    width: 60%;
+}
 .col_50 {
     width: 50%;
 }
 
 .col_33 {
     width: 33.33%;
+}
+
+.col_30{
+    width: 30%;
 }
 
 .col_25 {
@@ -88,10 +98,14 @@ p, span, a{
     margin-top: 50px;
 }
 
+.m_bot_med{
+    margin-bottom: 100px;
+}
+
 .btn_blue{
     background-color: var(--btn_col);
     color: var(--light_col);
-    padding: 0.3rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 /* Debug */
@@ -101,10 +115,10 @@ p, span, a{
     background-color: red;
 } */
 
-.banner {
+/* .banner {
     background-color: #0061FF;
     height: 800px;
-}
+} */
 
 .header_business {
     background-color: red;
@@ -195,15 +209,27 @@ p, span, a{
     text-align: right;
 }
 
-.logo{
-
-}
-
 .logo>img{
     vertical-align: sub;
 }
 
 
 .navbar a{
-    padding: 0 1.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+/* Banner */
+
+.box_banner{
+    padding-top: 100px;
+    background-color: var(--bg_color_secondary);
+}
+
+.banner_row > .col_30{
+    margin-right: 10%;
+}
+
+.banner_row img{
+    max-width: 100%;
+    width: 100%;
 }
