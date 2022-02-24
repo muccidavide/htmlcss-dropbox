@@ -1,0 +1,18 @@
+/* Colors */
+
+:root{
+    --dark_text: #000000;
+    --btn_col: #0061FF;    
+    --secondary_text: #61082B;
+    --bg_color_secondary: #B4D0E7;
+    --light_col: #FFFFFF;
+
+}
+
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
