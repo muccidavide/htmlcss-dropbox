@@ -1,8 +1,8 @@
 /* Colors */
 
-:root{
+:root {
     --dark_text: #000000;
-    --btn_col: #0061FF;    
+    --btn_col: #0061FF;
     --secondary_text: #61082B;
     --bg_color_secondary: #B4D0E7;
     --light_col: #FFFFFF;
@@ -11,154 +11,199 @@
 
 /* General */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     max-width: 1920px;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+}
+
+p, span, a{
+    font-size: 20px;
+
+}
 
 
 /* Utility */
 
-.container_large{
+.container_large {
     width: 1400px;
     margin: auto;
 }
 
-.container_med{
+.container_med {
     width: 1200px;
     margin: auto;
 }
 
-.row::after{
-content: "";
-display: table;
-clear: both;
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.col_100{
+.col_100 {
     width: 100%;
 }
-.col_50{
+
+.col_50 {
     width: 50%;
 }
 
-.col_33{
+.col_33 {
     width: 33.33%;
 }
 
-.col_25{
+.col_25 {
     width: 25%;
 }
 
-.col_20{
+.col_20 {
     width: 20%;
 }
 
-[class^=col_]{
+[class^=col_] {
     float: left;
 }
 
-.m_top_large{
+.m_top_large {
     margin-top: 150px;
 }
 
-.m_top_med{
+.m_top_med {
     margin-top: 100px;
 }
 
-.m_top_sml{
-    margin-top:50px ;
+.m_top_sml {
+    margin-top: 50px;
+}
+
+.btn_blue{
+    background-color: var(--btn_col);
+    color: var(--light_col);
+    padding: 0.3rem 2rem;
 }
 
 /* Debug */
 
-.navbar>div{
+/* .navbar>div {
     height: 100px;
     background-color: red;
-}
+} */
 
-.banner{
+.banner {
     background-color: #0061FF;
     height: 800px;
 }
 
-.header_business{
+.header_business {
     background-color: red;
     height: 300px;
 }
 
-.plans > div,
-.operations > div{
+.plans>div,
+.operations>div {
     background-color: blue;
     height: 1100px;
     border: solid black;
 }
 
-.enterprise{
+.enterprise {
     height: 250px;
     background-color: aqua;
 }
 
-.partner{
+.partner {
     height: 600px;
     background-color: #ff06f3;
 }
 
-.partner>div{
+.partner>div {
     border: solid black;
     height: 100%;
 }
 
-.header_operation{
+.header_operation {
     height: 150px;
     background-color: red;
 }
 
-.header_team{
+.header_team {
     background-color: darkturquoise;
     height: 200px;
 }
 
-.testimonials>div{
+.testimonials>div {
     height: 500px;
     background-color: yellow;
     border: solid black;
 }
 
-.test_grid>div{
+.test_grid>div {
     height: 50%;
     border: solid black;
 }
 
-.testimonials > .col_100{
+.testimonials>.col_100 {
     background-color: darkmagenta;
     height: 400px;
 }
 
-.free_try{
+.free_try {
     height: 100%;
     background-color: darkturquoise;
 }
 
-.faq_box{
+.faq_box {
     height: 500px;
     background-color: springgreen;
 }
 
-.col_20{
-    background-color:peru ;
+.col_20 {
+    background-color: peru;
     height: 400px;
     border: solid black;
 }
 
-.language{
+.language {
     background-color: darksalmon;
     height: 200px;
+}
+
+/* Header */
+
+/* Navbar */
+.navbar{
+    margin: 1rem 1rem;
+    vertical-align: middle;
+}
+.nav_left>div {
+    display: inline-block;
+}
+
+.nav_right{
+    text-align: right;
+}
+
+.logo{
+
+}
+
+.logo>img{
+    vertical-align: sub;
+}
+
+
+.navbar a{
+    padding: 0 1.5rem;
 }
