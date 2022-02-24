@@ -47,7 +47,7 @@ clear: both;
 }
 
 .col_33{
-    width: 33.3%;
+    width: 33.33%;
 }
 
 [class^=col_]{
@@ -55,15 +55,15 @@ clear: both;
 }
 
 .m_top_large{
-    margin-top: 300px;
-}
-
-.m_top_med{
     margin-top: 200px;
 }
 
+.m_top_med{
+    margin-top: 100px;
+}
+
 .m_top_sml{
-    margin-top:100px ;
+    margin-top:50px ;
 }
 
 /* Debug */
@@ -76,5 +76,31 @@ clear: both;
 .banner{
     background-color: #0061FF;
     height: 800px;
+}
+
+.header_business{
+    background-color: red;
+    height: 300px;
+}
+
+.plans > div{
+    background-color: blue;
+    height: 1100px;
+    border: solid black;
+}
+
+.enterprise{
+    height: 250px;
+    background-color: aqua;
+}
+
+.partner{
+    height: 600px;
+    background-color: #ff06f3;
+}
+
+.partner>div{
+    border: solid black;
+    height: 100%;
 }
 
