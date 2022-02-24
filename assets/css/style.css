@@ -16,3 +16,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    max-width: 1440px;
+}
+
+/* Utility */
+
+.container_large{
+    width: 1200px;
+}
+
+.container_med{
+    width: 1000px;
+}
+
+.row::after{
+content: "";
+display: table;
+clear: both;
+}
+
+.col_50{
+    width: 50%;
+}
+
+.col_33{
+    width: 33.3%;
+}
+
