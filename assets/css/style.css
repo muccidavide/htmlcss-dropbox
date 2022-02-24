@@ -38,6 +38,10 @@ h1{
     font-size: 85px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 /* Utility */
 
 .container_large {
@@ -125,10 +129,10 @@ h1{
     height: 800px;
 } */
 
-.header_business {
+/* .header_business {
     background-color: red;
     height: 300px;
-}
+} */
 
 .plans>div,
 .operations>div {
@@ -206,8 +210,13 @@ h1{
     margin: 1rem 1rem;
     vertical-align: middle;
 }
+.nav_right{
+    line-height: 100%;
+    vertical-align: middle;
+}
 .nav_left>div {
     display: inline-block;
+    
 }
 
 .nav_right{
