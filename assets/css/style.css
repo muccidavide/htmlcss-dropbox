@@ -18,7 +18,7 @@
 }
 
 body {
-    max-width: 1920px;
+    max-width: 1440px;
     margin: auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -35,22 +35,24 @@ p, span, a{
 }
 
 h1{
-    font-size: 85px;
-}
+    font-size: 68px;
+    padding: 3rem 7rem 0px 4rem;
+    font-weight: bold;
+    }
 
 h2{
-    font-size: 40px;
+    font-size: 22px;
 }
 
 /* Utility */
 
 .container_large {
-    width: 1400px;
+    width: 90%;
     margin: auto;
 }
 
 .container_med {
-    width: 1200px;
+    width: 70%;
     margin: auto;
 }
 
@@ -235,14 +237,18 @@ h2{
 /* Banner */
 
 .box_banner{
-    padding-top: 100px;
+    margin: auto;
     background-color: var(--bg_color_secondary);
-    max-height: 920px;
 }
 
 .banner_row > .col_30{
     margin-right: 10%;
     padding: 6rem 0;
+}
+.arrow{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .banner_row img{
