@@ -6,6 +6,7 @@
     --secondary_text: #61082B;
     --bg_color_secondary: #B4D0E7;
     --light_col: #FFFFFF;
+    --text_light: #7E8B96;
 
 }
 
@@ -26,23 +27,36 @@ body {
 
 a {
     text-decoration: none;
-    color:var(--dark_text)
+    color: var(--dark_text)
 }
 
-p, span, a{
-    font-size: 18px;
+p,
+span,
+a {
+    font-size: 12px;
 
 }
 
-h1{
+h1 {
     font-size: 68px;
     padding: 3rem 7rem 0px 4rem;
-    font-weight: bold;
-    }
 
-h2{
+}
+
+h2 {
     font-size: 40px;
-    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
 }
 
 /* #region Utility */
@@ -66,9 +80,15 @@ h2{
 .col_100 {
     width: 100%;
 }
-.col_60{
+
+.col_70 {
+    width: 70%;
+}
+
+.col_60 {
     width: 60%;
 }
+
 .col_50 {
     width: 50%;
 }
@@ -77,7 +97,7 @@ h2{
     width: 33.33%;
 }
 
-.col_30{
+.col_30 {
     width: 30%;
 }
 
@@ -105,20 +125,44 @@ h2{
     margin-top: 40px;
 }
 
-.m_bot_med{
+.m_bot_med {
     margin-bottom: 100px;
 }
 
-.m_bot_sml{
+.m_bot_sml {
     margin-bottom: 25px;
 }
 
-.btn_blue{
+.btn_small {
     background-color: var(--btn_col);
     color: var(--light_col);
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
     display: inline-block;
 }
+
+.btn_full {
+    background-color: var(--btn_col);
+    color: var(--light_col);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.p_rel {
+    position: relative;
+}
+/* Common */
+.plan, 
+.team{
+    padding: 1.3rem;
+    border: solid 1px var(--bg_color_secondary);
+}
+
+
+
+
 
 /* #endregion Utility */
 
@@ -139,17 +183,13 @@ h2{
     height: 300px;
 } */
 
-.plans>div,
+/* .plans>div,
 .operations>div {
     background-color: blue;
     height: 1100px;
     border: solid black;
-}
+} */
 
-.enterprise {
-    height: 250px;
-    background-color: aqua;
-}
 
 .partner {
     height: 600px;
@@ -203,39 +243,47 @@ h2{
     border: solid black;
 }
 
+.txt_right {
+    text-align: right;
+}
+
 .language {
     background-color: darksalmon;
     height: 200px;
 }
+
+
 
 /* #endregion Debug */
 
 /* Header */
 
 /* #region Navbar */
-.navbar{
+.navbar {
     margin: 1rem 1rem;
     vertical-align: middle;
 }
-.nav_right{
+
+.nav_right {
     line-height: 100%;
     vertical-align: middle;
 }
+
 .nav_left>div {
     display: inline-block;
-    
+
 }
 
-.nav_right{
+.nav_right {
     text-align: right;
 }
 
-.logo>img{
+.logo>img {
     vertical-align: sub;
 }
 
 
-.navbar a{
+.navbar a {
     padding: 0.5rem 1.5rem;
 }
 
@@ -245,48 +293,86 @@ h2{
  Main 
  **********/
 
-/* Banner */
+/* #region Banner */
 
-.box_banner{
+.box_banner {
     margin: auto;
     background-color: var(--bg_color_secondary);
     max-height: 650px;
 }
 
-.banner_row{
+.banner_row {
     padding-left: 4rem;
     padding-top: 4.5rem;
 }
 
-.banner_row > .col_30{
-    margin-right: 5%;
-}
-.arrow{
+
+.arrow {
     display: block;
     font-size: 2rem;
     font-weight: bold;
 }
 
-.banner_row img{
+.banner_row img {
     max-width: 100%;
     width: 100%;
 }
 
-/* Business plans */
+/* #endregion Banner */
 
-.plans h3{
+/* #region Business plans */
+
+.plans h5 {
     text-align: center;
-}
-
-.plans h3{
-    padding: 2rem 0;
     border: solid 1px var(--bg_color_secondary);
 }
 
-.plans>.col_33{
-    line-height: 4rem;
+.plan {
+    height: 900px;
 }
 
-.professional{
-    padding: 2rem;
+.plans>.col_30 {
+    margin: 0 1%;
 }
+
+.plan>span,
+.plan>hr,
+.plan>h4 {
+    display: block;
+    margin-top: 2rem;
+}
+
+.plan span:nth-of-type(2) {
+    color: var(--text_light);
+    margin-top: 2px;
+}
+
+.btn_blue {
+    line-height: initial;
+}
+
+.plan>hr {
+    width: 30%;
+}
+
+.check {
+    color: var(--btn_col);
+}
+
+.team
+{
+    padding: 1.5rem;
+}
+
+.enterprise>h3 {
+    display: inline;
+}
+
+.contact span,
+.team h4 {
+    display: block;
+    margin-top: 2rem;
+}
+
+
+/* #endregion Business plans */
