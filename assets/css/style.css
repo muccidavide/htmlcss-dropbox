@@ -272,5 +272,21 @@ h2{
     width: 100%;
 }
 
+/* Business plans */
 
+.plans h3{
+    text-align: center;
+}
 
+.plans h3{
+    padding: 2rem 0;
+    border: solid 1px var(--bg_color_secondary);
+}
+
+.plans>.col_33{
+    line-height: 4rem;
+}
+
+.professional{
+    padding: 2rem;
+}
