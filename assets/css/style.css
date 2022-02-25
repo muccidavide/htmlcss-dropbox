@@ -160,56 +160,10 @@ h5 {
     border: solid 1px var(--bg_color_secondary);
 }
 
-
-
-
-
 /* #endregion Utility */
 
 /* #region Debug */
 
-/* .navbar>div {
-    height: 100px;
-    background-color: red;
-} */
-
-/* .banner {
-    background-color: #0061FF;
-    height: 800px;
-} */
-
-/* .header_business {
-    background-color: red;
-    height: 300px;
-} */
-
-/* .plans>div,
-.operations>div {
-    background-color: blue;
-    height: 1100px;
-    border: solid black;
-} */
-
-
-.partner {
-    height: 600px;
-    background-color: #ff06f3;
-}
-
-.partner>div {
-    border: solid black;
-    height: 100%;
-}
-
-.header_operation {
-    height: 150px;
-    background-color: red;
-}
-
-.header_team {
-    background-color: darkturquoise;
-    height: 200px;
-}
 
 .testimonials>div {
     height: 500px;
@@ -376,3 +330,37 @@ h5 {
 
 
 /* #endregion Business plans */
+
+/* #region Partener */ 
+.partner_img>img{
+object-fit: cover;
+max-width: 100%;
+width: 100%;
+}
+
+.partner_text{
+    padding: 2rem 0 2rem 2rem;
+}
+
+.partner_text>span{
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    display: inline-block;
+    
+}
+
+/* #endregion Partener */
+.operations>.col_33{
+    padding: 1rem;
+}
+
+.operation img{
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.operation span{
+    display: inline-block;
+    margin-top: 1rem;
+}
