@@ -513,14 +513,19 @@ h5 {
 
 /* #region FAQ */
 
-.faq_text,
+.question,
 .faq_icon {
     margin-top: 1rem;
 }
 
-.faq_text>span {
+.question>span {
     font-size: 14px;
     font-weight: bold;
+}
+
+.answer {
+    margin-top: 1rem;
+    display: none;
 }
 
 .faq_icon {
@@ -528,7 +533,9 @@ h5 {
     padding-right: 1rem;
 }
 
-
+.question:hover .answer {
+    display: block;
+}
 
 /* #endregion FAQ */
 
