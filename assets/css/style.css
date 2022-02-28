@@ -16,6 +16,9 @@
 }
 
 /* #region General */
+html {
+    scroll-behavior: smooth;
+  }
 
 * {
     margin: 0;
@@ -266,8 +269,11 @@ h5 {
 
 .arrow {
     display: block;
+    margin-top: 2rem;
+}
+
+.arrow i{
     font-size: 2rem;
-    font-weight: bold;
 }
 
 .banner_row img {
