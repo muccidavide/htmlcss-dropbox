@@ -49,8 +49,6 @@ a {
 
 h1 {
     font-size: 4rem;
-    padding: 3rem 7rem 0px 4rem;
-
 }
 
 h2 {
@@ -80,6 +78,11 @@ h5 {
 
 .container_med {
     width: 70%;
+    margin: auto;
+}
+
+.container_full{
+    width: 100%;
     margin: auto;
 }
 
@@ -114,7 +117,7 @@ h5 {
 }
 
 .col_33 {
-    width: 33.33%;
+    width: 33.3%;
 }
 
 .col_30 {
@@ -302,7 +305,9 @@ h5 {
     padding-top: 4.5rem;
 }
 
-
+.banner>h1{
+    padding: 3rem 7rem 0px 4rem;
+}
 .arrow {
     display: block;
     margin-top: 2rem;
@@ -545,6 +550,9 @@ h5 {
 
 /* #region footer */
 
+
+
+
 .footer_box {
     background-color: var(--dark_text);
     color: var(--light_col);
@@ -570,3 +578,40 @@ h5 {
 }
 
 /* #endregion footer */
+
+
+/*****************
+ NEW PAGEEEEEE!!!!! 
+ *****************/
+
+ /* main */
+ .testimonial_box {
+    background-color: var(--dark_text);
+    color: var(--light_col);
+    padding: 4rem;
+}
+.testimonial_box>.col_40{
+    padding-right: 3rem;
+}
+.testimonial_box>.col_40>h1{
+    margin-bottom: 1rem;
+    font-size: 5rem;
+}
+
+.testimonial_box img{
+    max-width: 100%;
+    width: 100%;
+    padding-right: 3rem;
+}
+
+.tec_partner>h2{
+    text-align: center;
+}
+
+.tec_box .col_33{
+text-align: center;
+}
+
+.tec_box .col_33>img{
+    width: 20%;
+}
