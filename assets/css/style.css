@@ -18,7 +18,7 @@
 /* #region General */
 html {
     scroll-behavior: smooth;
-  }
+}
 
 * {
     margin: 0;
@@ -228,14 +228,20 @@ h5 {
     vertical-align: middle;
 }
 
-.nav_left>div {
+.logo {
     display: inline-block;
 
 }
 
-.nav_right {
+.nav_ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav_right ul:first-child {
     text-align: right;
 }
+
 
 .logo>img {
     vertical-align: sub;
@@ -245,6 +251,36 @@ h5 {
 .navbar a {
     padding: 0.5rem 1.5rem;
 }
+
+.dropdown-cont {
+    display: none;
+    position: absolute;
+    background-color: #daeeff;
+    min-width: 160px;
+    box-shadow: 0px 13px 25px 4px rgb(32 68 149 / 44%);
+    z-index: 1;
+    border-radius: 26px;
+    margin-top: 9px;
+    padding: 7px;
+    text-align: left;
+}
+
+.dropdown-cont a,
+.dropdown-cont h5 {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-cont h5 {
+    margin-top: 6px;
+}
+
+.drop_menu:hover .dropdown-cont {
+    display: block;
+}
+
 
 /* #endregion Navbar */
 
@@ -272,7 +308,7 @@ h5 {
     margin-top: 2rem;
 }
 
-.arrow i{
+.arrow i {
     font-size: 2rem;
 }
 
