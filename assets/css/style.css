@@ -30,7 +30,8 @@ body {
     min-width: 1440px;
     margin: auto;
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 a {
@@ -41,12 +42,12 @@ a {
 p,
 span,
 a {
-    font-size: 12px;
+    font-size: 0.9rem;
 
 }
 
 h1 {
-    font-size: 68px;
+    font-size: 4rem;
     padding: 3rem 7rem 0px 4rem;
 
 }
@@ -226,10 +227,10 @@ h5 {
     background-color: darkturquoise;
 } */
 
-.faq_box {
+/* .faq_box {
     height: 500px;
     background-color: springgreen;
-}
+} */
 
 /* .col_20 {
     background-color: peru;
@@ -240,11 +241,11 @@ h5 {
 .txt_right {
     text-align: right;
 }
-
+/* 
 .language {
     background-color: darksalmon;
     height: 200px;
-}
+} */
 
 
 
@@ -293,6 +294,7 @@ h5 {
     margin: auto;
     background-color: var(--bg_color_secondary);
     max-height: 650px;
+    font-weight: 600;
 }
 
 .banner_row {
@@ -426,7 +428,7 @@ h5 {
 
 /* #endregion Operation */
 
-/* #region Teams */
+/* #region Teams & Testimonials */
 
 .header_teams {
     padding-right: 28rem;
@@ -443,7 +445,6 @@ h5 {
     max-width: 100%;
     filter: invert(1);
 }
-
 
 .bg_florida {
     background-color: var(--florida_bg);
@@ -498,8 +499,53 @@ h5 {
     margin: 0 5%;
 }
 
-
-
-
-
 /* #endregion Teams */
+
+/* #region FAQ */
+
+.faq_text,
+.faq_icon{
+    margin-top: 1rem;
+}
+.faq_text>span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.faq_icon{
+    text-align: right;
+    padding-right: 1rem;
+}
+
+
+
+/* #endregion FAQ */
+
+/* #region footer */
+
+.footer_box{
+    background-color: var(--dark_text);
+    color: var(--light_col);
+    padding: 4rem 7rem;
+}
+
+.footer_box a{
+    color: var(--light_col);
+}
+
+.footer_box>.col_20>h4{
+    margin-bottom: 2rem;
+}
+
+.footer_box>.col_20>div{
+    margin-top: 0.7rem;
+}
+
+.language>div>hr,
+.language>div>span{
+    width: 10%;
+    color: var(--text_light);
+}
+
+/* #endregion footer */
+
